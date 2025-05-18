@@ -10,6 +10,7 @@ const jobSchema = new mongoose.Schema({
   },
   appliedDate: { type: Date, default: Date.now },
   notes: { type: String },
+  
 
   // 👇 Add this to associate each job with a specific user
   user: {
